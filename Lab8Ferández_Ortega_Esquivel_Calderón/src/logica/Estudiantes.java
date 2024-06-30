@@ -3,7 +3,7 @@ package logica;
 
 
 public class Estudiantes {
-	private String nombre;
+    private String nombre;
     private String cedula;
     private String carrera;
     private double indiceAcademico;
@@ -15,6 +15,10 @@ public class Estudiantes {
         this.indiceAcademico = indiceAcademico;
     }
 
+    public double getCedula() {
+           return cedula;
+    }
+	
     public double getIndiceAcademico() {
         return indiceAcademico;
     }
