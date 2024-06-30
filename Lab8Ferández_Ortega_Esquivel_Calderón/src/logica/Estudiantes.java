@@ -14,6 +14,10 @@ public class Estudiantes {
         this.carrera = carrera;
         this.indiceAcademico = indiceAcademico;
     }
+   
+	Public double getCedula(){
+	    return cedula;
+    }
 
     public double getIndiceAcademico() {
         return indiceAcademico;
